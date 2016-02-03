@@ -1,5 +1,59 @@
 PODS:
-  - SSDataSources-YapDB (0.1.0)
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - SSDataSources (0.8.5)
+  - SSDataSources-YapDB (0.1.0):
+    - SSDataSources (~> 0.8.5)
+    - YapDatabase (~> 2.8.1)
+  - YapDatabase (2.8.1):
+    - YapDatabase/Standard (= 2.8.1)
+  - YapDatabase/Standard (2.8.1):
+    - YapDatabase/Standard/Core (= 2.8.1)
+    - YapDatabase/Standard/Extensions (= 2.8.1)
+  - YapDatabase/Standard/Core (2.8.1):
+    - CocoaLumberjack (~> 2)
+  - YapDatabase/Standard/Extensions (2.8.1):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/CloudKit (= 2.8.1)
+    - YapDatabase/Standard/Extensions/ConnectionProxy (= 2.8.1)
+    - YapDatabase/Standard/Extensions/FilteredViews (= 2.8.1)
+    - YapDatabase/Standard/Extensions/FullTextSearch (= 2.8.1)
+    - YapDatabase/Standard/Extensions/Hooks (= 2.8.1)
+    - YapDatabase/Standard/Extensions/Relationships (= 2.8.1)
+    - YapDatabase/Standard/Extensions/RTreeIndex (= 2.8.1)
+    - YapDatabase/Standard/Extensions/SearchResults (= 2.8.1)
+    - YapDatabase/Standard/Extensions/SecondaryIndex (= 2.8.1)
+    - YapDatabase/Standard/Extensions/SecondaryIndex (= 2.8.1)
+    - YapDatabase/Standard/Extensions/Views (= 2.8.1)
+  - YapDatabase/Standard/Extensions/CloudKit (2.8.1):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/ConnectionProxy (2.8.1):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/FilteredViews (2.8.1):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/Views
+  - YapDatabase/Standard/Extensions/FullTextSearch (2.8.1):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/Hooks (2.8.1):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/Relationships (2.8.1):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/RTreeIndex (2.8.1):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/SearchResults (2.8.1):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/FullTextSearch
+    - YapDatabase/Standard/Extensions/Views
+  - YapDatabase/Standard/Extensions/SecondaryIndex (2.8.1):
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/Views (2.8.1):
+    - YapDatabase/Standard/Core
 
 DEPENDENCIES:
   - SSDataSources-YapDB (from `../`)
@@ -9,6 +63,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SSDataSources-YapDB: 02e611c8c198a7243e58c35892182e65d2735bf9
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  SSDataSources: b01170fb23b82acf0649194e9189b0bf5f702681
+  SSDataSources-YapDB: 07a56bcd3a2da9b12876dde74a56077f476f94be
+  YapDatabase: 861c720d5850a59f9e5c0bad0fd95334012b9dc9
 
 COCOAPODS: 0.39.0

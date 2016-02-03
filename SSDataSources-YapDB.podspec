@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "SSDataSources-YapDB"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SSDataSources-YapDB."
+  s.summary          = "A SSDataSource subclass to plug into YapDatabase View."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,12 +19,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SSDataSources-YapDB"
+  s.homepage         = "https://github.com/shsteven/SSDataSources-YapDB"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Steven Zhang" => "sz@tectusdreamlab.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SSDataSources-YapDB.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/shsteven/SSDataSources-YapDB.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/shsteven'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -36,5 +36,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SSDataSources', '~> 0.8.5'
+  s.dependency 'YapDatabase', '~> 2.8.1'
 end

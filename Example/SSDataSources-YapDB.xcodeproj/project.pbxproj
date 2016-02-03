@@ -38,6 +38,8 @@
 /* Begin PBXFileReference section */
 		0950E921C1A770B3C2C14A50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0F9632035856CD0EB09FE96A /* SSDataSources-YapDB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "SSDataSources-YapDB.podspec"; path = "../SSDataSources-YapDB.podspec"; sourceTree = "<group>"; };
+		31C846A21C619BF000F7F54C /* SSYapDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SSYapDataSource.h; path = ../Pod/Classes/SSYapDataSource.h; sourceTree = "<group>"; };
+		31C846A31C619BF000F7F54C /* SSYapDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SSYapDataSource.m; path = ../Pod/Classes/SSYapDataSource.m; sourceTree = "<group>"; };
 		56D0300802F00FEC09E562E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5EC1D74298592910ACAD7CD1 /* Pods-SSDataSources-YapDB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSDataSources-YapDB_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSDataSources-YapDB_Tests/Pods-SSDataSources-YapDB_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SSDataSources-YapDB_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSDataSources-YapDB_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,6 +191,8 @@
 				F37E3FC1A96C3749135636A1 /* Pods-SSDataSources-YapDB_Example.release.xcconfig */,
 				60664F1D46E31745C4598349 /* Pods-SSDataSources-YapDB_Tests.debug.xcconfig */,
 				5EC1D74298592910ACAD7CD1 /* Pods-SSDataSources-YapDB_Tests.release.xcconfig */,
+				31C846A21C619BF000F7F54C /* SSYapDataSource.h */,
+				31C846A31C619BF000F7F54C /* SSYapDataSource.m */,
 			);
 			name = Pods;
 			sourceTree = "<group>";

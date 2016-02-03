@@ -1,15 +1,15 @@
 {
   "name": "SSDataSources-YapDB",
   "version": "0.1.0",
-  "summary": "A short description of SSDataSources-YapDB.",
+  "summary": "A SSDataSource subclass to plug into YapDatabase View.",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SSDataSources-YapDB",
+  "homepage": "https://github.com/shsteven/SSDataSources-YapDB",
   "license": "MIT",
   "authors": {
     "Steven Zhang": "sz@tectusdreamlab.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SSDataSources-YapDB.git",
+    "git": "https://github.com/shsteven/SSDataSources-YapDB.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -20,6 +20,14 @@
   "resource_bundles": {
     "SSDataSources-YapDB": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "SSDataSources": [
+      "~> 0.8.5"
+    ],
+    "YapDatabase": [
+      "~> 2.8.1"
     ]
   }
 }

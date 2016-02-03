@@ -10,4 +10,7 @@
 
 @interface SSViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
+
 @end

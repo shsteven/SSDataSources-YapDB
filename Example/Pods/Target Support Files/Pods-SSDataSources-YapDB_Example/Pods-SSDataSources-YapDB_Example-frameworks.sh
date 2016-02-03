@@ -84,8 +84,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-SSDataSources-YapDB_Example/CocoaLumberjack.framework"
+  install_framework "Pods-SSDataSources-YapDB_Example/SSDataSources.framework"
   install_framework "Pods-SSDataSources-YapDB_Example/SSDataSources_YapDB.framework"
+  install_framework "Pods-SSDataSources-YapDB_Example/YapDatabase.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-SSDataSources-YapDB_Example/CocoaLumberjack.framework"
+  install_framework "Pods-SSDataSources-YapDB_Example/SSDataSources.framework"
   install_framework "Pods-SSDataSources-YapDB_Example/SSDataSources_YapDB.framework"
+  install_framework "Pods-SSDataSources-YapDB_Example/YapDatabase.framework"
 fi
