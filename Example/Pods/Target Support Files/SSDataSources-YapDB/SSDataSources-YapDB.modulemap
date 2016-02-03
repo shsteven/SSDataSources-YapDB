@@ -1,0 +1,6 @@
+framework module SSDataSources_YapDB {
+  umbrella header "SSDataSources-YapDB-umbrella.h"
+
+  export *
+  module * { export * }
+}

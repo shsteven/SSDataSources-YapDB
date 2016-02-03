@@ -1,0 +1,25 @@
+{
+  "name": "SSDataSources-YapDB",
+  "version": "0.1.0",
+  "summary": "A short description of SSDataSources-YapDB.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SSDataSources-YapDB",
+  "license": "MIT",
+  "authors": {
+    "Steven Zhang": "sz@tectusdreamlab.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SSDataSources-YapDB.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "SSDataSources-YapDB": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

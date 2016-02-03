@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040015B2F4DCFC71E5A1CF4A469115A8 /* Pods-SSDataSources-YapDB_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB7DA0514397E5CFAA49462183D5D34 /* Pods-SSDataSources-YapDB_Tests-dummy.m */; };
+		43418F99BEB76097EFD0ED97A581515A /* Pods-SSDataSources-YapDB_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD31DBCC49E9C0900B26457C12E8D417 /* Pods-SSDataSources-YapDB_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44B3DC815E7BA91B0A29D25DC1D37575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		47C73DC10BFA50147E370F3FD060D7DA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 564EC6C64CA3A845F50FB1386CF35E55 /* ReplaceMe.m */; };
+		75E7209A44F54B957CACCEC5DB48B785 /* Pods-SSDataSources-YapDB_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CB30AF482B30C258C2991092F3969 /* Pods-SSDataSources-YapDB_Example-dummy.m */; };
+		94CCE129E2C2C227533A098DB890154A /* Pods-SSDataSources-YapDB_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA4B73528D2046F0C1BBA6D8CA408C /* Pods-SSDataSources-YapDB_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		961768E2F8D080C0CE55BD305F185C0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A1ED70CE9C57D1B7A3D465F7DB374C74 /* SSDataSources-YapDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA7C6D89CE812069803266A76DDFBA /* SSDataSources-YapDB-dummy.m */; };
+		A359A26EFD90023E4EA1753B180C799E /* SSDataSources-YapDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9F3E47099725AC458E04ACC81BE61B /* SSDataSources-YapDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBE34DA9B455DEDC8D0ABDED9237DAF3 /* SSDataSources-YapDB.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97AE04324EF3D3393AA8C177ED0E4066 /* SSDataSources-YapDB.bundle */; };
+		D96BD99D2E1B2397B3E0688A9C345CB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16270D8CBE8AF051B7338035A83EA252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A1E86E9F4C6FA08E2EDFA84BFA0E52;
+			remoteInfo = "SSDataSources-YapDB";
+		};
+		3F1AA90B3540BB701551C94173AD17A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A1E86E9F4C6FA08E2EDFA84BFA0E52;
+			remoteInfo = "SSDataSources-YapDB";
+		};
+		896714B2B47E86244790F6CDEF1BEBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838192FE2FC0B2D4AE6F80099E35B90A;
+			remoteInfo = "SSDataSources-YapDB-SSDataSources-YapDB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EA4B73528D2046F0C1BBA6D8CA408C /* Pods-SSDataSources-YapDB_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSDataSources-YapDB_Tests-umbrella.h"; sourceTree = "<group>"; };
+		08A54D2A7D18ACB3BC39E07A31160C1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F991E1A8476DE82D9BF77C8D9093307 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268B5869E7E1DE2A7FF8881DAF94D6A4 /* Pods-SSDataSources-YapDB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSDataSources-YapDB_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2DA8E50221049B5DFDDC31C3E150F4FF /* Pods-SSDataSources-YapDB_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSDataSources-YapDB_Example-resources.sh"; sourceTree = "<group>"; };
+		2E7C302268CDA797293A4E605FAF3AB3 /* Pods-SSDataSources-YapDB_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSDataSources-YapDB_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3745C2F7CF4A5901FBDC1069FBC8A910 /* Pods-SSDataSources-YapDB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSDataSources-YapDB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4626D35C7C78977251C850205186E4EB /* Pods_SSDataSources_YapDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSDataSources_YapDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E300976062F4B8F9DF60F5B3E65E4D /* Pods-SSDataSources-YapDB_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SSDataSources-YapDB_Tests.modulemap"; sourceTree = "<group>"; };
+		564EC6C64CA3A845F50FB1386CF35E55 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		6ED0DDB41AB01D28F11EB2C9AA233BAA /* Pods-SSDataSources-YapDB_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSDataSources-YapDB_Tests-resources.sh"; sourceTree = "<group>"; };
+		716BC55D33576E677C3A8090A4D90EAB /* Pods-SSDataSources-YapDB_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSDataSources-YapDB_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		78338377E6FDE4274A304E4BD1FB41B2 /* SSDataSources-YapDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSDataSources-YapDB-prefix.pch"; sourceTree = "<group>"; };
+		835EDF867852DBA2DDDB1DA7DDAAAAB9 /* Pods-SSDataSources-YapDB_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSDataSources-YapDB_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		84F2C6BA95970F989422E748B616A54E /* Pods-SSDataSources-YapDB_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SSDataSources-YapDB_Example.modulemap"; sourceTree = "<group>"; };
+		91BD04086D5054AD6F6FAF73DCFA7E8E /* Pods-SSDataSources-YapDB_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSDataSources-YapDB_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		97AE04324EF3D3393AA8C177ED0E4066 /* SSDataSources-YapDB.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSDataSources-YapDB.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCA7C6D89CE812069803266A76DDFBA /* SSDataSources-YapDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSDataSources-YapDB-dummy.m"; sourceTree = "<group>"; };
+		A1819A4ECAEADEE3675107F1D299A767 /* Pods-SSDataSources-YapDB_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSDataSources-YapDB_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C85EFADCC22C5FDD598FD404EED51F81 /* SSDataSources-YapDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SSDataSources-YapDB.xcconfig"; sourceTree = "<group>"; };
+		CEDFC63442AE4BBEE082333AB8280AC7 /* SSDataSources_YapDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSDataSources_YapDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9F3E47099725AC458E04ACC81BE61B /* SSDataSources-YapDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSDataSources-YapDB-umbrella.h"; sourceTree = "<group>"; };
+		D3B05B6B3660D98628CAB3B821767F97 /* Pods-SSDataSources-YapDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSDataSources-YapDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DCB7DA0514397E5CFAA49462183D5D34 /* Pods-SSDataSources-YapDB_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSDataSources-YapDB_Tests-dummy.m"; sourceTree = "<group>"; };
+		DD31DBCC49E9C0900B26457C12E8D417 /* Pods-SSDataSources-YapDB_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSDataSources-YapDB_Example-umbrella.h"; sourceTree = "<group>"; };
+		E3CE85C4BC2CF2785199A6FC451F80BB /* SSDataSources-YapDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "SSDataSources-YapDB.modulemap"; sourceTree = "<group>"; };
+		E5179F78056C7621555719E2E1655E83 /* Pods-SSDataSources-YapDB_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSDataSources-YapDB_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA650E171BCAEA7758473A7F975837A3 /* Pods_SSDataSources_YapDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSDataSources_YapDB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26CB30AF482B30C258C2991092F3969 /* Pods-SSDataSources-YapDB_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSDataSources-YapDB_Example-dummy.m"; sourceTree = "<group>"; };
+		F96822A595E0BF0603E48AADF6F55354 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2537E5A85F924C2EE00DAB03787181 /* Pods-SSDataSources-YapDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSDataSources-YapDB_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0914FF639BEBA05FDF62FB6861D58AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96BD99D2E1B2397B3E0688A9C345CB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E7626A2A0FB6D1D61C5D0D1E349FBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B3DC815E7BA91B0A29D25DC1D37575 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792E512CFC9FD69A0646C3D2AD15A408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961768E2F8D080C0CE55BD305F185C0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0F8AF48DE4E4C07E781AF65553860F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EBAF464BF19AF7D6F7A606E23F558EA /* Pods-SSDataSources-YapDB_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1F991E1A8476DE82D9BF77C8D9093307 /* Info.plist */,
+				84F2C6BA95970F989422E748B616A54E /* Pods-SSDataSources-YapDB_Example.modulemap */,
+				A1819A4ECAEADEE3675107F1D299A767 /* Pods-SSDataSources-YapDB_Example-acknowledgements.markdown */,
+				835EDF867852DBA2DDDB1DA7DDAAAAB9 /* Pods-SSDataSources-YapDB_Example-acknowledgements.plist */,
+				F26CB30AF482B30C258C2991092F3969 /* Pods-SSDataSources-YapDB_Example-dummy.m */,
+				2E7C302268CDA797293A4E605FAF3AB3 /* Pods-SSDataSources-YapDB_Example-frameworks.sh */,
+				2DA8E50221049B5DFDDC31C3E150F4FF /* Pods-SSDataSources-YapDB_Example-resources.sh */,
+				DD31DBCC49E9C0900B26457C12E8D417 /* Pods-SSDataSources-YapDB_Example-umbrella.h */,
+				D3B05B6B3660D98628CAB3B821767F97 /* Pods-SSDataSources-YapDB_Example.debug.xcconfig */,
+				FF2537E5A85F924C2EE00DAB03787181 /* Pods-SSDataSources-YapDB_Example.release.xcconfig */,
+			);
+			name = "Pods-SSDataSources-YapDB_Example";
+			path = "Target Support Files/Pods-SSDataSources-YapDB_Example";
+			sourceTree = "<group>";
+		};
+		1CB026168DDA3B0131B8FF0AAED2A635 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				564EC6C64CA3A845F50FB1386CF35E55 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4DEB435FD57E9183AF093AC557D91A88 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E42038B840705A37FCDFD7336F04C8E8 /* SSDataSources-YapDB */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E9C420112D453E86C680E494B67203B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F96822A595E0BF0603E48AADF6F55354 /* Info.plist */,
+				E3CE85C4BC2CF2785199A6FC451F80BB /* SSDataSources-YapDB.modulemap */,
+				C85EFADCC22C5FDD598FD404EED51F81 /* SSDataSources-YapDB.xcconfig */,
+				9DCA7C6D89CE812069803266A76DDFBA /* SSDataSources-YapDB-dummy.m */,
+				78338377E6FDE4274A304E4BD1FB41B2 /* SSDataSources-YapDB-prefix.pch */,
+				CF9F3E47099725AC458E04ACC81BE61B /* SSDataSources-YapDB-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SSDataSources-YapDB";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				4DEB435FD57E9183AF093AC557D91A88 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E6DB98E86E279FABBF2A4C955F9192F7 /* Products */,
+				A00F799219EEA99D3BF1439C59037E5A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96E8FC54A0A44ED1722EAA25C061C16A /* Pods-SSDataSources-YapDB_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				08A54D2A7D18ACB3BC39E07A31160C1F /* Info.plist */,
+				51E300976062F4B8F9DF60F5B3E65E4D /* Pods-SSDataSources-YapDB_Tests.modulemap */,
+				E5179F78056C7621555719E2E1655E83 /* Pods-SSDataSources-YapDB_Tests-acknowledgements.markdown */,
+				91BD04086D5054AD6F6FAF73DCFA7E8E /* Pods-SSDataSources-YapDB_Tests-acknowledgements.plist */,
+				DCB7DA0514397E5CFAA49462183D5D34 /* Pods-SSDataSources-YapDB_Tests-dummy.m */,
+				716BC55D33576E677C3A8090A4D90EAB /* Pods-SSDataSources-YapDB_Tests-frameworks.sh */,
+				6ED0DDB41AB01D28F11EB2C9AA233BAA /* Pods-SSDataSources-YapDB_Tests-resources.sh */,
+				03EA4B73528D2046F0C1BBA6D8CA408C /* Pods-SSDataSources-YapDB_Tests-umbrella.h */,
+				3745C2F7CF4A5901FBDC1069FBC8A910 /* Pods-SSDataSources-YapDB_Tests.debug.xcconfig */,
+				268B5869E7E1DE2A7FF8881DAF94D6A4 /* Pods-SSDataSources-YapDB_Tests.release.xcconfig */,
+			);
+			name = "Pods-SSDataSources-YapDB_Tests";
+			path = "Target Support Files/Pods-SSDataSources-YapDB_Tests";
+			sourceTree = "<group>";
+		};
+		A00F799219EEA99D3BF1439C59037E5A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAF464BF19AF7D6F7A606E23F558EA /* Pods-SSDataSources-YapDB_Example */,
+				96E8FC54A0A44ED1722EAA25C061C16A /* Pods-SSDataSources-YapDB_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B48DFC73BDEFA3923E4F1FD51059D6F1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1CB026168DDA3B0131B8FF0AAED2A635 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E42038B840705A37FCDFD7336F04C8E8 /* SSDataSources-YapDB */ = {
+			isa = PBXGroup;
+			children = (
+				B48DFC73BDEFA3923E4F1FD51059D6F1 /* Pod */,
+				5E9C420112D453E86C680E494B67203B /* Support Files */,
+			);
+			name = "SSDataSources-YapDB";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E6DB98E86E279FABBF2A4C955F9192F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA650E171BCAEA7758473A7F975837A3 /* Pods_SSDataSources_YapDB_Example.framework */,
+				4626D35C7C78977251C850205186E4EB /* Pods_SSDataSources_YapDB_Tests.framework */,
+				97AE04324EF3D3393AA8C177ED0E4066 /* SSDataSources-YapDB.bundle */,
+				CEDFC63442AE4BBEE082333AB8280AC7 /* SSDataSources_YapDB.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E2E2C5C75190D95538702146C575BE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43418F99BEB76097EFD0ED97A581515A /* Pods-SSDataSources-YapDB_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BF2506EB0EC8A508BDC81DB7E82CE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CCE129E2C2C227533A098DB890154A /* Pods-SSDataSources-YapDB_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88E171BD0C515C17FF53373EFB400D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A359A26EFD90023E4EA1753B180C799E /* SSDataSources-YapDB-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2646A0D075DEB4A1E47AA29C303AE2FC /* Pods-SSDataSources-YapDB_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5AB974CB26B0F5A102CA21E412C8789 /* Build configuration list for PBXNativeTarget "Pods-SSDataSources-YapDB_Example" */;
+			buildPhases = (
+				79AB95B81802517513E4958606AC7155 /* Sources */,
+				0E7626A2A0FB6D1D61C5D0D1E349FBC3 /* Frameworks */,
+				2E2E2C5C75190D95538702146C575BE6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				684C38503E295B861F17EFEC72AD3ACC /* PBXTargetDependency */,
+			);
+			name = "Pods-SSDataSources-YapDB_Example";
+			productName = "Pods-SSDataSources-YapDB_Example";
+			productReference = EA650E171BCAEA7758473A7F975837A3 /* Pods_SSDataSources_YapDB_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		838192FE2FC0B2D4AE6F80099E35B90A /* SSDataSources-YapDB-SSDataSources-YapDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940886054BC7F7FC08783F35CDFE85AA /* Build configuration list for PBXNativeTarget "SSDataSources-YapDB-SSDataSources-YapDB" */;
+			buildPhases = (
+				0F4723E3D245A957538911F0F45165A6 /* Sources */,
+				8F0F8AF48DE4E4C07E781AF65553860F /* Frameworks */,
+				3D327A177366A97CA60B2753709F1701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSDataSources-YapDB-SSDataSources-YapDB";
+			productName = "SSDataSources-YapDB-SSDataSources-YapDB";
+			productReference = 97AE04324EF3D3393AA8C177ED0E4066 /* SSDataSources-YapDB.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A705D11C05D32F9D8817813476CEAD0C /* Pods-SSDataSources-YapDB_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0586ACE525A142EBB02CA515D33C49F /* Build configuration list for PBXNativeTarget "Pods-SSDataSources-YapDB_Tests" */;
+			buildPhases = (
+				91CAC05DB0F1370A1D0990331E48F389 /* Sources */,
+				0914FF639BEBA05FDF62FB6861D58AD5 /* Frameworks */,
+				66BF2506EB0EC8A508BDC81DB7E82CE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCE9887D1CC67D804B9E2F4CC5D0614E /* PBXTargetDependency */,
+			);
+			name = "Pods-SSDataSources-YapDB_Tests";
+			productName = "Pods-SSDataSources-YapDB_Tests";
+			productReference = 4626D35C7C78977251C850205186E4EB /* Pods_SSDataSources_YapDB_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4A1E86E9F4C6FA08E2EDFA84BFA0E52 /* SSDataSources-YapDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF73C3D4B8AB3E66C1A6F5538EAD0C80 /* Build configuration list for PBXNativeTarget "SSDataSources-YapDB" */;
+			buildPhases = (
+				2E7F078FC1DE2BF0E539CDEDDEB16EAF /* Sources */,
+				792E512CFC9FD69A0646C3D2AD15A408 /* Frameworks */,
+				7ADC38AE201EECE484E4717D90AF9E06 /* Resources */,
+				C88E171BD0C515C17FF53373EFB400D6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884B240C0127EAB4CAA95CD2CF790D63 /* PBXTargetDependency */,
+			);
+			name = "SSDataSources-YapDB";
+			productName = "SSDataSources-YapDB";
+			productReference = CEDFC63442AE4BBEE082333AB8280AC7 /* SSDataSources_YapDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E6DB98E86E279FABBF2A4C955F9192F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2646A0D075DEB4A1E47AA29C303AE2FC /* Pods-SSDataSources-YapDB_Example */,
+				A705D11C05D32F9D8817813476CEAD0C /* Pods-SSDataSources-YapDB_Tests */,
+				D4A1E86E9F4C6FA08E2EDFA84BFA0E52 /* SSDataSources-YapDB */,
+				838192FE2FC0B2D4AE6F80099E35B90A /* SSDataSources-YapDB-SSDataSources-YapDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D327A177366A97CA60B2753709F1701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADC38AE201EECE484E4717D90AF9E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE34DA9B455DEDC8D0ABDED9237DAF3 /* SSDataSources-YapDB.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F4723E3D245A957538911F0F45165A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E7F078FC1DE2BF0E539CDEDDEB16EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C73DC10BFA50147E370F3FD060D7DA /* ReplaceMe.m in Sources */,
+				A1ED70CE9C57D1B7A3D465F7DB374C74 /* SSDataSources-YapDB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AB95B81802517513E4958606AC7155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E7209A44F54B957CACCEC5DB48B785 /* Pods-SSDataSources-YapDB_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CAC05DB0F1370A1D0990331E48F389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040015B2F4DCFC71E5A1CF4A469115A8 /* Pods-SSDataSources-YapDB_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		684C38503E295B861F17EFEC72AD3ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SSDataSources-YapDB";
+			target = D4A1E86E9F4C6FA08E2EDFA84BFA0E52 /* SSDataSources-YapDB */;
+			targetProxy = 3F1AA90B3540BB701551C94173AD17A6 /* PBXContainerItemProxy */;
+		};
+		884B240C0127EAB4CAA95CD2CF790D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SSDataSources-YapDB-SSDataSources-YapDB";
+			target = 838192FE2FC0B2D4AE6F80099E35B90A /* SSDataSources-YapDB-SSDataSources-YapDB */;
+			targetProxy = 896714B2B47E86244790F6CDEF1BEBE1 /* PBXContainerItemProxy */;
+		};
+		CCE9887D1CC67D804B9E2F4CC5D0614E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SSDataSources-YapDB";
+			target = D4A1E86E9F4C6FA08E2EDFA84BFA0E52 /* SSDataSources-YapDB */;
+			targetProxy = 16270D8CBE8AF051B7338035A83EA252 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		003AF46747A0CA63B246E22D7703F71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C85EFADCC22C5FDD598FD404EED51F81 /* SSDataSources-YapDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSDataSources-YapDB/SSDataSources-YapDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSDataSources-YapDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSDataSources-YapDB/SSDataSources-YapDB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SSDataSources_YapDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		818C625148C5241BBD3581444731E52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268B5869E7E1DE2A7FF8881DAF94D6A4 /* Pods-SSDataSources-YapDB_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SSDataSources-YapDB_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSDataSources-YapDB_Tests/Pods-SSDataSources-YapDB_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SSDataSources_YapDB_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A4C6A2701BAD991C35DC6F64EF1DCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3745C2F7CF4A5901FBDC1069FBC8A910 /* Pods-SSDataSources-YapDB_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SSDataSources-YapDB_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSDataSources-YapDB_Tests/Pods-SSDataSources-YapDB_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SSDataSources_YapDB_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D6C4972D648BB7EBAE1ADAC61EAEA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C85EFADCC22C5FDD598FD404EED51F81 /* SSDataSources-YapDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSDataSources-YapDB/SSDataSources-YapDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSDataSources-YapDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSDataSources-YapDB/SSDataSources-YapDB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SSDataSources_YapDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D2AE39C1381A8E4CD4FDC2AA8886D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B05B6B3660D98628CAB3B821767F97 /* Pods-SSDataSources-YapDB_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SSDataSources-YapDB_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSDataSources-YapDB_Example/Pods-SSDataSources-YapDB_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SSDataSources_YapDB_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A72E635A7467D231BE1714EFB38C4F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C85EFADCC22C5FDD598FD404EED51F81 /* SSDataSources-YapDB.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "SSDataSources-YapDB";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A7531F291925BB7917F39798F7C17809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2537E5A85F924C2EE00DAB03787181 /* Pods-SSDataSources-YapDB_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SSDataSources-YapDB_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSDataSources-YapDB_Example/Pods-SSDataSources-YapDB_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SSDataSources_YapDB_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC7E0059A0CECDE058A0B4749ACAE862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C85EFADCC22C5FDD598FD404EED51F81 /* SSDataSources-YapDB.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "SSDataSources-YapDB";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940886054BC7F7FC08783F35CDFE85AA /* Build configuration list for PBXNativeTarget "SSDataSources-YapDB-SSDataSources-YapDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7E0059A0CECDE058A0B4749ACAE862 /* Debug */,
+				A72E635A7467D231BE1714EFB38C4F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF73C3D4B8AB3E66C1A6F5538EAD0C80 /* Build configuration list for PBXNativeTarget "SSDataSources-YapDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6C4972D648BB7EBAE1ADAC61EAEA6B /* Debug */,
+				003AF46747A0CA63B246E22D7703F71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0586ACE525A142EBB02CA515D33C49F /* Build configuration list for PBXNativeTarget "Pods-SSDataSources-YapDB_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4C6A2701BAD991C35DC6F64EF1DCB6 /* Debug */,
+				818C625148C5241BBD3581444731E52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5AB974CB26B0F5A102CA21E412C8789 /* Build configuration list for PBXNativeTarget "Pods-SSDataSources-YapDB_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2AE39C1381A8E4CD4FDC2AA8886D17 /* Debug */,
+				A7531F291925BB7917F39798F7C17809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

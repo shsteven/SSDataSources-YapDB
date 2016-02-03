@@ -1,0 +1,14 @@
+PODS:
+  - SSDataSources-YapDB (0.1.0)
+
+DEPENDENCIES:
+  - SSDataSources-YapDB (from `../`)
+
+EXTERNAL SOURCES:
+  SSDataSources-YapDB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SSDataSources-YapDB: 02e611c8c198a7243e58c35892182e65d2735bf9
+
+COCOAPODS: 0.39.0
